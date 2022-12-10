@@ -3,20 +3,25 @@ let movies = {
  name: 'Wednesday',
  releaseData: '23/11/2022',
  mainActor: 'Дженна Ортега, Гвендолин Кристи, Рики Линдхоум, Джейми МакШейн, Хантер Дуэн',
- episodes: 'Серии-8',
+ episodes: '8',
  fantasy: {
   month: 'October',
   comment: 'The best film I have ever watch!!!'
  },
 }
-console.log(movies.name,movies.releaseData)
-console.log( movies.mainActor)
-console.log(movies.episodes)
-console.log(movies.fantasy.month,movies.fantasy.comment)
+let currMovieName = 'Сериал:' + ' ' + movies.name
+let currReleaseData = 'Был выпущен:' + ' ' + movies.releaseData + ' ' + 'года'
+let currMainActor =  'В главных ролях:' + ' ' + movies.mainActor
+let currEpisode = movies.name + ' ' + movies.episodes + ' ' + 'серий'
+let currFantasy = 'Realise month:' + ' ' + movies.fantasy.month + ' ' + 'and comment' + ' ' + movies.fantasy.comment
 
+console.log(currMovieName)
+console.log(currReleaseData)
+console.log(currMainActor)
+console.log(currEpisode)
+console.log(currFantasy)
 
-
-// 2) 
+// 2)
 let dayData ='Friday'
 
 switch (dayData) {
