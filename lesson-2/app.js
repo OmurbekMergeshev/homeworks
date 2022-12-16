@@ -22,7 +22,7 @@ console.log(currEpisode)
 console.log(currFantasy)
 
 // 2)
-let dayData ='Friday'
+let dayData ='Saturday'
 
 switch (dayData) {
  case 'Monday':
