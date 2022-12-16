@@ -146,3 +146,5 @@ function  getMax2(numbers){
 }
 
 console.log(getMax2([1, 7,4,8,9]))
+
+const arr = [1,2,3,4]
