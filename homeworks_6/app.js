@@ -1,10 +1,5 @@
-// const counters = document.querySelector('.counter')
-// const incBtn = document.querySelector('.increment')
-// const decBtn = document.querySelector('.decrement')
-// const input = document.querySelector('.input')
 const counter = function () {
     const btns = document.querySelectorAll('.counter__btn');
-
 
     btns.forEach(btn => {
         btn.addEventListener('click', function () {
