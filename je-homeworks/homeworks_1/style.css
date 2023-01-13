@@ -1,0 +1,18 @@
+.container_inner {
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background: brown;
+    position: relative;
+}
+#box {
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+}
