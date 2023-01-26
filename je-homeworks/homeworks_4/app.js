@@ -10,10 +10,9 @@ btn.onclick = () => {
         data.forEach(person => {
             const name = person.name
             const age = person.age
-            const div = document.createElement('div')
-            div.innerHTML = `${name}, ${age}`
-            // document.querySelector('.name').innerHTML = data.name
-            document.body.appendChild(div)
+            const list = document.createElement('p')
+            list.innerHTML = `${name}, ${age}`
+            document.body.appendChild(list)
             console.log(`Name: ${name}, Age: ${age}`)
         })
     }
