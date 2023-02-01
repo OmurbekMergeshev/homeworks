@@ -5,13 +5,13 @@ let num = 1
 
 btn.onclick = () => {
     num++
-    fetchTodo(num);
+    fetchTodo(num)
 }
 
 prevButton.onclick = () => {
     if (num > 1) {
-        num--;
-        fetchTodo(num);
+        num--
+        fetchTodo(num)
     }
 }
 
@@ -33,5 +33,4 @@ function fetchTodo(num) {
 fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => response.json())
     .then(data => console.log(data))
-    .catch(error => console.log('Error:', error));
-
+    .catch(error => console.log('Error:', error))
